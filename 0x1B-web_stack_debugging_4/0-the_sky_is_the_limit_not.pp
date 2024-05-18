@@ -1,3 +1,4 @@
+#Puppet manifest fixes adjust the web stack so that it can handle 1000 request with 100 at a time
 # Increase the ULIMIT of the default file
 exec { 'fix--for-nginx':
 	# Modify the ULIMIT value
